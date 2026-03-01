@@ -45,5 +45,18 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.solovault.io"
+        }
+      ],
+      "destination": "https://solovault.io/:path*",
+      "permanent": true
+    }
   ]
 }
